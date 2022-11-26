@@ -4,7 +4,7 @@ class Config(object):
     API_ID = int(os.environ.get("APP_ID", "22078178"))
     API_HASH = os.environ.get("API_HASH", "d8b5fdd23f55a4ae9f709807b88406be")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5590537210:AAGpKf0XTY4beZ7AZ6YEOnSp8844ruR97II")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzcBuwRYM_lEHu61x0rybS5EGZxW9ufxQo7_qk7x2pec6A4oiatQ5LMow9R5MMIWaHTushspyGe7J4BHhHIPnR-i8kY3Cd-FdMX_UcZufG4HnDsbr6p1LoarCVCmLUndGcpB2y9Ugo0Hbi64Z-9PoxSyTp4LOGe406WRXIykSVOn0kHim5kibaXqDG06IhnoBoh_jgW1xRptwBclyUO5zwt3nVUrH4CAG5GuHXocf_xkA-mBj2bh289fdayyUPhTfMriitlvEmeO8L2HT1HEyFLwgvTEU2phSKnVUdzr-FFOgGo-gjh0F91m6We_IWq634j2dxI-IvqnA-Fo-JM_k1jNaxg=")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1ApWapzMBu2MF_sdqxDsp5PE2Sta-xnPVcaZ_e-vKgKDxIzQl4EnCpu_yiNkNiwm4k7guNHL1VP10MPmrjPCsfohVlktPyzv2tHweZOabsjFwge80kNebZeiPe3v_KndDxkHLLP6YgjTPnPcJGCtjc8FN0nJc3dOw2HMpnmv9e6xuq7IyHTGUtLxM2BwYiCTioxMFBYqyJptoFTqJHRY_-1TC8z4_4MCKwhJIKhEDnKA78hcIcLOXjJnPOYukcZvhtUlvcpfDv1_JQ7RnzQRWFyIeDtmTT1p1dc6Vqos_AjB-MRs7P9M8lAblI_VvY3Vi_JoSnx9KKcLN3jAyJtqT3NAbKs0sCZY=")
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "Shinchan_Music_Bot")
@@ -12,6 +12,6 @@ class Config(object):
     CHANNEL = os.environ.get("CHANNEL", "Shizuka_update") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://te.legra.ph/file/6e0dab99a08982feb5215.jpg")
     CMD_IMG = os.environ.get("CMD_IMG", "https://telegra.ph/file/66518ed54301654f0b126.png")
-    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5502757284")) # telegram I'd not Username
+    ASSISTANT_ID = int(os.environ.get("ASSISTANT_ID", "5285125597")) # telegram I'd not Username
     AUTO_LEAVE_TIME = int(os.environ.get("AUTO_LEAVE_ASSISTANT_TIME", "54000")) # in seconds
     AUTO_LEAVE = os.environ.get('AUTO_LEAVING_ASSISTANT', None) # Change it to "True"
